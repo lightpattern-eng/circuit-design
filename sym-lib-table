@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name rescue)(type Legacy)(uri C:/kicad/lightframe/lightframe12v-rescue.lib)(options "")(descr ""))
+  (lib (name lightframe12v-rescue)(type Legacy)(uri ${KIPRJMOD}/lightframe12v-rescue.lib)(options "")(descr ""))
+)

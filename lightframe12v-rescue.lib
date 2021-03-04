@@ -1,0 +1,80 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-lightframe12v-rescue
+#
+DEF MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-lightframe12v-rescue Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-lightframe12v-rescue" 206 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" 200 300 60 H I L CNN
+F4 "MMSS8050-H-TPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MMSS8050-H-TP" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.mccsemi.com/pdf/Products/MMSS8050(SOT-23).pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 25V 1.5A SOT23" 200 1000 60 H I L CNN "Description"
+F11 "Micro Commercial Co" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X B 1 -200 0 100 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TLC6C598PWR-keith-lightframe12v-rescue
+#
+DEF TLC6C598PWR-keith-lightframe12v-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 -950 50 H V C CNN
+F1 "TLC6C598PWR-keith-lightframe12v-rescue" 0 850 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 400 300 -450 0 1 0 f
+X VCC 1 0 500 100 D 39 39 1 1 W
+X RCK 10 400 -250 100 L 39 39 1 1 I
+X Drain5 11 400 -150 100 L 39 39 1 1 O
+X Drain6 12 400 -50 100 L 39 39 1 1 O
+X Drain7 13 400 50 100 L 39 39 1 1 O
+X Drain8 14 400 150 100 L 39 39 1 1 O
+X SRCK 15 400 250 100 L 39 39 1 1 I
+X GND 16 -50 -550 100 U 39 39 1 1 W
+X SER_IN 2 -400 250 100 R 39 39 1 1 I
+X Drain1 3 -400 150 100 R 39 39 1 1 O
+X Drain2 4 -400 50 100 R 39 39 1 1 O
+X Drain3 5 -400 -50 100 R 39 39 1 1 O
+X Drain4 6 -400 -150 100 R 39 39 1 1 O
+X CLR 7 -400 -250 100 R 39 39 1 1 I
+X G_EN 8 -400 -350 100 R 39 39 1 1 I
+X SER_OUT 9 400 -350 100 L 39 39 1 1 O
+ENDDRAW
+ENDDEF
+#
+# TPS563207s-keith-lightframe12v-rescue
+#
+DEF TPS563207s-keith-lightframe12v-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 -750 50 H V C CNN
+F1 "TPS563207s-keith-lightframe12v-rescue" 0 700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 250 150 -300 0 1 0 f
+X Vin 1 -50 350 100 D 50 39 1 1 W
+X Sw 2 250 0 100 L 50 39 1 1 P
+X Gnd 3 0 -400 100 U 50 39 1 1 W
+X Bst 4 250 150 100 L 50 39 1 1 P
+X En 5 -250 50 100 R 50 39 1 1 I
+X Fb 6 250 -150 100 L 50 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
