@@ -73,7 +73,7 @@ F 3 "" H 3400 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lightframe12v-rescue:TPS563207s-keith U1
+L lightframe12v-rescue:TPS563207s-keith-lightframe12v-rescue U1
 U 1 1 602D3242
 P 4800 1250
 F 0 "U1" H 4800 1781 50  0000 C CNN
@@ -592,7 +592,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 6700 1450 6700
 $Comp
-L lightframe12v-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single Q2
+L lightframe12v-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-lightframe12v-rescue Q2
 U 1 1 6020A794
 P 1650 7350
 F 0 "Q2" H 1838 7403 60  0000 L CNN
@@ -612,7 +612,7 @@ F 12 "Active" H 1850 8550 60  0001 L CNN "Status"
 	1    0    0    1   
 $EndComp
 $Comp
-L lightframe12v-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single Q1
+L lightframe12v-rescue:MMSS8050-H-TP-dk_Transistors-Bipolar-BJT-Single-lightframe12v-rescue Q1
 U 1 1 602098C7
 P 1650 6700
 F 0 "Q1" H 1838 6753 60  0000 L CNN
@@ -1011,7 +1011,7 @@ F 3 "" H 5600 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lightframe12v-rescue:TLC6C598PWR-keith U2
+L lightframe12v-rescue:TLC6C598PWR-keith-lightframe12v-rescue U2
 U 1 1 602FF179
 P 6350 3700
 F 0 "U2" H 6350 4381 50  0000 C CNN
@@ -1077,7 +1077,7 @@ Clear
 Text Label 5950 3950 2    50   ~ 0
 Clear
 $Comp
-L lightframe12v-rescue:TLC6C598PWR-keith U4
+L lightframe12v-rescue:TLC6C598PWR-keith-lightframe12v-rescue U4
 U 1 1 602DEB67
 P 6800 5850
 F 0 "U4" H 6800 6531 50  0000 C CNN
