@@ -229,33 +229,6 @@ Text Label 10100 2950 2    50   ~ 0
 Gpio14
 Text Label 10100 2850 2    50   ~ 0
 Gpio13
-Text Label 10100 1750 2    50   ~ 0
-Drain15
-Text Label 10100 1650 2    50   ~ 0
-Drain14
-Text Label 10100 1550 2    50   ~ 0
-Drain13
-Text Label 10100 1450 2    50   ~ 0
-Drain12
-Text Label 10100 1350 2    50   ~ 0
-Drain11
-Text Label 10100 1250 2    50   ~ 0
-Drain10
-Text Label 10100 1150 2    50   ~ 0
-Drain9
-Text Label 10100 1850 2    50   ~ 0
-Drain16
-$Comp
-L Connector:Conn_01x08_Female J3
-U 1 1 60100BEA
-P 10300 1450
-F 0 "J3" H 10328 1426 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 10328 1335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10300 1450 50  0001 C CNN
-F 3 "~" H 10300 1450 50  0001 C CNN
-	1    10300 1450
-	1    0    0    -1  
-$EndComp
 Text Label 10100 2150 2    50   ~ 0
 Rxd
 Text Label 10100 2050 2    50   ~ 0
@@ -697,104 +670,6 @@ Wire Wire Line
 	1150 1150 1250 1150
 Wire Wire Line
 	1150 1350 1250 1350
-Text Label 6400 5600 2    50   ~ 0
-Serial_In
-Text Label 6400 6000 2    50   ~ 0
-Drain4
-Text Label 6400 5700 2    50   ~ 0
-Drain1
-Text Label 6400 5800 2    50   ~ 0
-Drain2
-Text Label 6400 5900 2    50   ~ 0
-Drain3
-Text Label 7200 5800 0    50   ~ 0
-Drain7
-Text Label 7200 5900 0    50   ~ 0
-Drain6
-Text Label 7200 6000 0    50   ~ 0
-Drain5
-Text Label 7200 5700 0    50   ~ 0
-Drain8
-Text Label 7200 6100 0    50   ~ 0
-Register_Clock
-Text Label 7200 5600 0    50   ~ 0
-Serial_Clock
-$Comp
-L power:+3V3 #PWR020
-U 1 1 601257E7
-P 5550 4900
-F 0 "#PWR020" H 5550 4750 50  0001 C CNN
-F 1 "+3V3" H 5565 5073 50  0000 C CNN
-F 2 "" H 5550 4900 50  0001 C CNN
-F 3 "" H 5550 4900 50  0001 C CNN
-	1    5550 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 6400 6750 6450
-$Comp
-L power:GND #PWR026
-U 1 1 600E367C
-P 6750 6450
-F 0 "#PWR026" H 6750 6200 50  0001 C CNN
-F 1 "GND" H 6755 6277 50  0000 C CNN
-F 2 "" H 6750 6450 50  0001 C CNN
-F 3 "" H 6750 6450 50  0001 C CNN
-	1    6750 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C16
-U 1 1 6019A5A8
-P 5850 5050
-F 0 "C16" H 5938 5096 50  0000 L CNN
-F 1 "1uF" H 5938 5005 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 5850 5050 50  0001 C CNN
-F 3 "~" H 5850 5050 50  0001 C CNN
-	1    5850 5050
-	1    0    0    -1  
-$EndComp
-Connection ~ 5850 4950
-Wire Wire Line
-	5550 4950 5850 4950
-Wire Wire Line
-	5850 4950 6200 4950
-$Comp
-L Device:CP_Small C17
-U 1 1 6019AFF6
-P 6200 5050
-F 0 "C17" H 6288 5096 50  0000 L CNN
-F 1 "0.1uF" H 6288 5005 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 6200 5050 50  0001 C CNN
-F 3 "~" H 6200 5050 50  0001 C CNN
-	1    6200 5050
-	1    0    0    -1  
-$EndComp
-Connection ~ 6200 4950
-Wire Wire Line
-	6200 4950 6800 4950
-Wire Wire Line
-	6800 4950 6800 5350
-Wire Wire Line
-	5550 4900 5550 4950
-Wire Wire Line
-	5850 5150 6050 5150
-Connection ~ 6050 5150
-Wire Wire Line
-	6050 5150 6050 5250
-Wire Wire Line
-	6050 5150 6200 5150
-$Comp
-L power:GND #PWR023
-U 1 1 601AEDC0
-P 6050 5250
-F 0 "#PWR023" H 6050 5000 50  0001 C CNN
-F 1 "GND" H 6055 5077 50  0000 C CNN
-F 2 "" H 6050 5250 50  0001 C CNN
-F 3 "" H 6050 5250 50  0001 C CNN
-	1    6050 5250
-	1    0    0    -1  
-$EndComp
 Text Notes 1950 2250 0    50   ~ 0
 Put a ferrite bead here to reduce emi
 Wire Wire Line
@@ -914,145 +789,6 @@ F 3 "~" H 3300 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 2700 2850 2900
-Text Label 5950 3550 2    50   ~ 0
-Drain9
-Text Label 5950 3650 2    50   ~ 0
-Drain10
-Text Label 5950 3750 2    50   ~ 0
-Drain11
-Text Label 5950 3850 2    50   ~ 0
-Drain12
-Text Label 6750 3550 0    50   ~ 0
-Drain16
-Text Label 6750 3650 0    50   ~ 0
-Drain15
-Text Label 6750 3750 0    50   ~ 0
-Drain14
-Text Label 6750 3850 0    50   ~ 0
-Drain13
-Text Label 6750 3950 0    50   ~ 0
-Register_Clock
-Text Label 6750 3450 0    50   ~ 0
-Serial_Clock
-$Comp
-L power:+3V3 #PWR012
-U 1 1 602FF18D
-P 5100 2750
-F 0 "#PWR012" H 5100 2600 50  0001 C CNN
-F 1 "+3V3" H 5115 2923 50  0000 C CNN
-F 2 "" H 5100 2750 50  0001 C CNN
-F 3 "" H 5100 2750 50  0001 C CNN
-	1    5100 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 4250 6300 4300
-$Comp
-L power:GND #PWR018
-U 1 1 602FF194
-P 6300 4300
-F 0 "#PWR018" H 6300 4050 50  0001 C CNN
-F 1 "GND" H 6305 4127 50  0000 C CNN
-F 2 "" H 6300 4300 50  0001 C CNN
-F 3 "" H 6300 4300 50  0001 C CNN
-	1    6300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP_Small C13
-U 1 1 602FF19B
-P 5400 2900
-F 0 "C13" H 5488 2946 50  0000 L CNN
-F 1 "1uF" H 5488 2855 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 5400 2900 50  0001 C CNN
-F 3 "~" H 5400 2900 50  0001 C CNN
-	1    5400 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5400 2800
-Wire Wire Line
-	5100 2800 5400 2800
-Wire Wire Line
-	5400 2800 5750 2800
-$Comp
-L Device:CP_Small C14
-U 1 1 602FF1A4
-P 5750 2900
-F 0 "C14" H 5838 2946 50  0000 L CNN
-F 1 "0.1uF" H 5838 2855 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 5750 2900 50  0001 C CNN
-F 3 "~" H 5750 2900 50  0001 C CNN
-	1    5750 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5750 2800
-Wire Wire Line
-	5750 2800 6350 2800
-Wire Wire Line
-	6350 2800 6350 3200
-Wire Wire Line
-	5100 2750 5100 2800
-Wire Wire Line
-	5400 3000 5600 3000
-Connection ~ 5600 3000
-Wire Wire Line
-	5600 3000 5600 3100
-Wire Wire Line
-	5600 3000 5750 3000
-$Comp
-L power:GND #PWR014
-U 1 1 602FF1B2
-P 5600 3100
-F 0 "#PWR014" H 5600 2850 50  0001 C CNN
-F 1 "GND" H 5605 2927 50  0000 C CNN
-F 2 "" H 5600 3100 50  0001 C CNN
-F 3 "" H 5600 3100 50  0001 C CNN
-	1    5600 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L lightframe12v-rescue:TLC6C598PWR-keith-lightframe12v-rescue U2
-U 1 1 602FF179
-P 6350 3700
-F 0 "U2" H 6350 4381 50  0000 C CNN
-F 1 "TLC6C598PWR" H 6350 4290 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm_ThermalVias" H 6350 3700 50  0001 C CNN
-F 3 "" H 6350 3700 50  0001 C CNN
-	1    6350 3700
-	1    0    0    -1  
-$EndComp
-Text Label 7200 6200 0    50   ~ 0
-Driver2_Serial_In
-Text Label 5950 3450 2    50   ~ 0
-Driver2_Serial_In
-NoConn ~ 6750 4050
-Text Label 8750 1750 2    50   ~ 0
-Drain7
-Text Label 8750 1650 2    50   ~ 0
-Drain6
-Text Label 8750 1550 2    50   ~ 0
-Drain5
-Text Label 8750 1450 2    50   ~ 0
-Drain4
-Text Label 8750 1350 2    50   ~ 0
-Drain3
-Text Label 8750 1250 2    50   ~ 0
-Drain2
-Text Label 8750 1150 2    50   ~ 0
-Drain1
-Text Label 8750 1850 2    50   ~ 0
-Drain8
-$Comp
-L Connector:Conn_01x08_Female J2
-U 1 1 6032F34E
-P 8950 1450
-F 0 "J2" H 8978 1426 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 8978 1335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8950 1450 50  0001 C CNN
-F 3 "~" H 8950 1450 50  0001 C CNN
-	1    8950 1450
-	1    0    0    -1  
-$EndComp
 Connection ~ 2150 2400
 Wire Wire Line
 	2150 2400 2500 2400
@@ -1072,25 +808,6 @@ F 3 "" H 3600 6150 50  0001 C CNN
 $EndComp
 Text Label 5150 6550 0    50   ~ 0
 Register_Clock
-Text Label 6400 6100 2    50   ~ 0
-Clear
-Text Label 5950 3950 2    50   ~ 0
-Clear
-$Comp
-L lightframe12v-rescue:TLC6C598PWR-keith-lightframe12v-rescue U4
-U 1 1 602DEB67
-P 6800 5850
-F 0 "U4" H 6800 6531 50  0000 C CNN
-F 1 "TLC6C598PWR" H 6800 6440 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm_ThermalVias" H 6800 5850 50  0001 C CNN
-F 3 "" H 6800 5850 50  0001 C CNN
-	1    6800 5850
-	1    0    0    -1  
-$EndComp
-Text Label 6400 6200 2    50   ~ 0
-Enable
-Text Label 5950 4050 2    50   ~ 0
-Enable
 Wire Wire Line
 	1250 1450 1500 1450
 Wire Wire Line
@@ -1292,16 +1009,12 @@ Text Label 4200 4300 0    50   ~ 0
 Gpio14
 Text Label 4200 4200 0    50   ~ 0
 Gpio13
-Text Label 4200 5100 0    50   ~ 0
-Serial_Clock
 Text Label 4200 5000 0    50   ~ 0
 Serial_In
 Text Label 4200 5200 0    50   ~ 0
 Clear
 Text Label 4200 5300 0    50   ~ 0
 Enable
-Text Label 4200 5400 0    50   ~ 0
-Register_Clock
 NoConn ~ 4200 5500
 NoConn ~ 4200 5600
 NoConn ~ 4200 5700
@@ -1489,4 +1202,227 @@ Wire Wire Line
 Connection ~ 3650 850 
 Wire Wire Line
 	3650 850  3900 850 
+Connection ~ 5750 3450
+Wire Wire Line
+	5750 3450 6050 3450
+Wire Wire Line
+	6050 5550 6050 5600
+Text Label 4200 5400 0    50   ~ 0
+Register_Clock
+Text Label 4200 5100 0    50   ~ 0
+Serial_Clock
+$Comp
+L power:GND #PWR023
+U 1 1 601AEDC0
+P 5600 3750
+F 0 "#PWR023" H 5600 3500 50  0001 C CNN
+F 1 "GND" H 5605 3577 50  0000 C CNN
+F 2 "" H 5600 3750 50  0001 C CNN
+F 3 "" H 5600 3750 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3650 5750 3650
+Wire Wire Line
+	5600 3650 5600 3750
+Connection ~ 5600 3650
+Wire Wire Line
+	5400 3650 5600 3650
+Wire Wire Line
+	5100 3400 5100 3450
+$Comp
+L Device:CP_Small C17
+U 1 1 6019AFF6
+P 5750 3550
+F 0 "C17" H 5838 3596 50  0000 L CNN
+F 1 "0.1uF" H 5838 3505 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5750 3550 50  0001 C CNN
+F 3 "~" H 5750 3550 50  0001 C CNN
+	1    5750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR020
+U 1 1 601257E7
+P 5100 3400
+F 0 "#PWR020" H 5100 3250 50  0001 C CNN
+F 1 "+3V3" H 5115 3573 50  0000 C CNN
+F 2 "" H 5100 3400 50  0001 C CNN
+F 3 "" H 5100 3400 50  0001 C CNN
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+Text Label 5600 4550 2    50   ~ 0
+Serial_Clock
+$Comp
+L power:GND #PWR026
+U 1 1 600E367C
+P 6050 5600
+F 0 "#PWR026" H 6050 5350 50  0001 C CNN
+F 1 "GND" H 6055 5427 50  0000 C CNN
+F 2 "" H 6050 5600 50  0001 C CNN
+F 3 "" H 6050 5600 50  0001 C CNN
+	1    6050 5600
+	1    0    0    -1  
+$EndComp
+Text Label 5600 4650 2    50   ~ 0
+Serial_In
+Wire Wire Line
+	6050 3450 6050 3850
+$Comp
+L lightframe:TLC5971 U2
+U 1 1 6046912B
+P 6100 4650
+F 0 "U2" H 6425 5650 50  0000 C CNN
+F 1 "TLC5971" H 6450 5550 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm_ThermalVias" H 8225 5150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlc5971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1615094393163" H 8225 5150 50  0001 C CNN
+	1    6100 4650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 5250
+NoConn ~ 6600 5350
+$Comp
+L Connector:Conn_01x06_Female J2
+U 1 1 604DD4C0
+P 8575 1525
+F 0 "J2" H 8603 1501 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 8603 1410 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8575 1525 50  0001 C CNN
+F 3 "~" H 8575 1525 50  0001 C CNN
+	1    8575 1525
+	1    0    0    -1  
+$EndComp
+Text Label 8375 1325 2    50   ~ 0
+LED1
+Text Label 8375 1425 2    50   ~ 0
+LED2
+Text Label 8375 1525 2    50   ~ 0
+LED3
+Text Label 8375 1625 2    50   ~ 0
+LED4
+Text Label 8375 1725 2    50   ~ 0
+LED5
+Text Label 8375 1825 2    50   ~ 0
+LED6
+$Comp
+L Connector:Conn_01x06_Female J3
+U 1 1 604E7F78
+P 9875 1525
+F 0 "J3" H 9903 1501 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9903 1410 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 9875 1525 50  0001 C CNN
+F 3 "~" H 9875 1525 50  0001 C CNN
+	1    9875 1525
+	1    0    0    -1  
+$EndComp
+Text Label 9675 1325 2    50   ~ 0
+LED7
+Text Label 9675 1425 2    50   ~ 0
+LED8
+Text Label 9675 1525 2    50   ~ 0
+LED9
+Text Label 9675 1625 2    50   ~ 0
+LED10
+Text Label 9675 1725 2    50   ~ 0
+LED11
+Text Label 9675 1825 2    50   ~ 0
+LED12
+Text Label 6600 5150 0    50   ~ 0
+LED1
+Text Label 6600 5050 0    50   ~ 0
+LED2
+Text Label 6600 4950 0    50   ~ 0
+LED3
+Text Label 6600 4850 0    50   ~ 0
+LED4
+Text Label 6600 4750 0    50   ~ 0
+LED5
+Text Label 6600 4650 0    50   ~ 0
+LED6
+Text Label 6600 4550 0    50   ~ 0
+LED7
+Text Label 6600 4450 0    50   ~ 0
+LED8
+Text Label 6600 4350 0    50   ~ 0
+LED9
+Text Label 6600 4250 0    50   ~ 0
+LED10
+Text Label 6600 4150 0    50   ~ 0
+LED11
+Text Label 6600 4050 0    50   ~ 0
+LED12
+$Comp
+L Device:R_Small_US R18
+U 1 1 60526411
+P 5375 5000
+F 0 "R18" H 5443 5046 50  0000 L CNN
+F 1 "820" H 5443 4955 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5375 5000 50  0001 C CNN
+F 3 "~" H 5375 5000 50  0001 C CNN
+	1    5375 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4850 5375 4850
+Wire Wire Line
+	5375 4850 5375 4900
+Wire Wire Line
+	5375 5100 5375 5175
+$Comp
+L power:GND #PWR014
+U 1 1 60535678
+P 5375 5175
+F 0 "#PWR014" H 5375 4925 50  0001 C CNN
+F 1 "GND" H 5380 5002 50  0000 C CNN
+F 2 "" H 5375 5175 50  0001 C CNN
+F 3 "" H 5375 5175 50  0001 C CNN
+	1    5375 5175
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 3450
+Wire Wire Line
+	5100 3450 5400 3450
+Wire Wire Line
+	5400 3450 5750 3450
+$Comp
+L Device:CP_Small C16
+U 1 1 6019A5A8
+P 5400 3550
+F 0 "C16" H 5488 3596 50  0000 L CNN
+F 1 "1uF" H 5488 3505 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5400 3550 50  0001 C CNN
+F 3 "~" H 5400 3550 50  0001 C CNN
+	1    5400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C13
+U 1 1 60543713
+P 5025 5000
+F 0 "C13" H 5113 5046 50  0000 L CNN
+F 1 "1uF" H 5113 4955 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5025 5000 50  0001 C CNN
+F 3 "~" H 5025 5000 50  0001 C CNN
+	1    5025 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4750 5025 4750
+Wire Wire Line
+	5025 4750 5025 4900
+Wire Wire Line
+	5025 5100 5025 5175
+$Comp
+L power:GND #PWR012
+U 1 1 6055736E
+P 5025 5175
+F 0 "#PWR012" H 5025 4925 50  0001 C CNN
+F 1 "GND" H 5030 5002 50  0000 C CNN
+F 2 "" H 5025 5175 50  0001 C CNN
+F 3 "" H 5025 5175 50  0001 C CNN
+	1    5025 5175
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
