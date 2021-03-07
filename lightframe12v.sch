@@ -251,7 +251,7 @@ U 1 1 60100BEA
 P 10300 1450
 F 0 "J3" H 10328 1426 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 10328 1335 50  0000 L CNN
-F 2 "keith:Pinheader1x8 2.54_Drill1.02mm" H 10300 1450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10300 1450 50  0001 C CNN
 F 3 "~" H 10300 1450 50  0001 C CNN
 	1    10300 1450
 	1    0    0    -1  
@@ -266,7 +266,7 @@ U 1 1 600DF393
 P 10300 2250
 F 0 "J4" H 10328 2226 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 10328 2135 50  0000 L CNN
-F 2 "keith:Pinheader1x6 2.54_Drill1.02mm" H 10300 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10300 2250 50  0001 C CNN
 F 3 "~" H 10300 2250 50  0001 C CNN
 	1    10300 2250
 	1    0    0    -1  
@@ -441,7 +441,7 @@ U 1 1 601E8B71
 P 10300 3250
 F 0 "e1" H 10328 3276 50  0000 L CNN
 F 1 "Conn_01x10_Female" H 10328 3185 50  0000 L CNN
-F 2 "keith:Pinheader1x10 2.54_Drill1.02mm" H 10300 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10300 3250 50  0001 C CNN
 F 3 "~" H 10300 3250 50  0001 C CNN
 	1    10300 3250
 	1    0    0    -1  
@@ -1048,7 +1048,7 @@ U 1 1 6032F34E
 P 8950 1450
 F 0 "J2" H 8978 1426 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 8978 1335 50  0000 L CNN
-F 2 "keith:Pinheader1x8 2.54_Drill1.02mm" H 8950 1450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8950 1450 50  0001 C CNN
 F 3 "~" H 8950 1450 50  0001 C CNN
 	1    8950 1450
 	1    0    0    -1  
