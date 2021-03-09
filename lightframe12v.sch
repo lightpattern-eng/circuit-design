@@ -222,11 +222,9 @@ Rts
 Text Notes 11150 1050 2    50   ~ 0
 SPMWH22286D5WAP0S2/7347178\nVf=3.1V, I=60mA
 Text Label 10100 3150 2    50   ~ 0
-Gpio16
+Gpio22
 Text Label 10100 3050 2    50   ~ 0
 Gpio15
-Text Label 10100 2950 2    50   ~ 0
-Gpio14
 Text Label 10100 2850 2    50   ~ 0
 Gpio13
 Text Label 10100 2150 2    50   ~ 0
@@ -407,7 +405,7 @@ Gpio19
 Text Label 10100 3350 2    50   ~ 0
 Gpio18
 Text Label 10100 3250 2    50   ~ 0
-Gpio17
+Gpio23
 $Comp
 L Connector:Conn_01x10_Female J5
 U 1 1 601E8B71
@@ -894,22 +892,16 @@ Text Label 4200 4800 0    50   ~ 0
 Gpio19
 Text Label 4200 4700 0    50   ~ 0
 Gpio18
-Text Label 4200 4600 0    50   ~ 0
-Gpio17
-Text Label 4200 4500 0    50   ~ 0
-Gpio16
-Text Label 4200 4400 0    50   ~ 0
-Gpio15
-Text Label 4200 4300 0    50   ~ 0
-Gpio14
-Text Label 4200 4200 0    50   ~ 0
-Gpio13
+Text Label 4200 5100 0    50   ~ 0
+Gpio23
 Text Label 4200 5000 0    50   ~ 0
+Gpio22
+Text Label 4200 4600 0    50   ~ 0
+Gpio15
+Text Label 4200 4500 0    50   ~ 0
+Gpio13
+Text Label 4200 4200 0    50   ~ 0
 Serial_In
-Text Label 4200 5200 0    50   ~ 0
-Clear
-Text Label 4200 5300 0    50   ~ 0
-Enable
 NoConn ~ 4200 5500
 NoConn ~ 4200 5600
 NoConn ~ 4200 5700
@@ -1102,9 +1094,7 @@ Wire Wire Line
 	5750 3450 6050 3450
 Wire Wire Line
 	6050 5550 6050 5600
-Text Label 4200 5400 0    50   ~ 0
-Register_Clock
-Text Label 4200 5100 0    50   ~ 0
+Text Label 4200 4400 0    50   ~ 0
 Serial_Clock
 $Comp
 L power:GND #PWR016
@@ -1330,4 +1320,9 @@ Wire Wire Line
 Connection ~ 2850 2900
 Wire Wire Line
 	2850 2900 3300 2900
+NoConn ~ 4200 5200
+NoConn ~ 4200 5300
+NoConn ~ 4200 5400
+NoConn ~ 4200 4300
+NoConn ~ 10100 2950
 $EndSCHEMATC
