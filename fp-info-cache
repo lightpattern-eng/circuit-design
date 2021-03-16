@@ -1,4 +1,4 @@
-19856159002837640
+19856160350688000
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55097,13 +55097,6 @@ D33V0S1U2LP1608-7
 2
 2
 Keith
-LMR33620ADDAR
-
-
-0
-8
-8
-Keith
 PTS645 SMT GType
 
 
@@ -55188,6 +55181,13 @@ Yuji Bicolor SMD
 4
 4
 Keith
+lmr33620HSOIC
+
+
+0
+18
+10
+Keith
 sod-523
 
 
@@ -55195,11 +55195,11 @@ sod-523
 2
 2
 Keith
-yageo0402
+wurth 7443330820 8.2uH
 
 
 0
-3
+2
 2
 LED_SMD
 LED-APA102-2020
