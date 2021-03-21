@@ -1,4 +1,4 @@
-19856160361065149
+19852932480462278
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55111,40 +55111,19 @@ PTS810 Tactile Switch
 4
 4
 Keith
-Pinheader1x5 2.54_Drill1.02mm
-
-
-0
-5
-5
-Keith
-Pinheader1x6 2.54_Drill1.02mm
-
-
-0
-6
-6
-Keith
-Pinheader1x8 2.54_Drill1.02mm
-
-
-0
-8
-8
-Keith
-Pinheader1x10 2.54_Drill1.02mm
-
-
-0
-10
-10
-Keith
 SDR1307
 
 
 0
 2
 2
+Keith
+SRN8040 Bournes
+
+
+0
+0
+0
 Keith
 SRU1048 inductor
 
@@ -55166,6 +55145,13 @@ TLC6C598
 0
 16
 16
+Keith
+TPS562211 12V pmic
+
+
+0
+8
+8
 Keith
 Wurth 74437349012 Inductor
 
