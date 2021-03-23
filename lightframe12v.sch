@@ -92,10 +92,10 @@ F 3 "~" H 10150 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R12
+L Device:R_Small_US R13
 U 1 1 602DA52D
 P 10650 5850
-F 0 "R12" V 10855 5850 50  0000 C CNN
+F 0 "R13" V 10855 5850 50  0000 C CNN
 F 1 "470U 1%" V 10764 5850 50  0000 C CNN
 F 2 "digikey-footprints:0603" H 10650 5850 50  0001 C CNN
 F 3 "~" H 10650 5850 50  0001 C CNN
@@ -154,10 +154,10 @@ F 3 "~" H 10100 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R11
+L Device:R_Small_US R12
 U 1 1 6029A6D9
 P 10600 4800
-F 0 "R11" V 10805 4800 50  0000 C CNN
+F 0 "R12" V 10805 4800 50  0000 C CNN
 F 1 "470U 1%" V 10714 4800 50  0000 C CNN
 F 2 "digikey-footprints:0603" H 10600 4800 50  0001 C CNN
 F 3 "~" H 10600 4800 50  0001 C CNN
@@ -715,10 +715,10 @@ LED11
 Text Label 8300 4275 0    50   ~ 0
 LED12
 $Comp
-L Device:R_Small_US R10
+L Device:R_Small_US R11
 U 1 1 60526411
 P 7075 5225
-F 0 "R10" H 7143 5271 50  0000 L CNN
+F 0 "R11" H 7143 5271 50  0000 L CNN
 F 1 "820" H 7143 5180 50  0000 L CNN
 F 2 "digikey-footprints:0603" H 7075 5225 50  0001 C CNN
 F 3 "~" H 7075 5225 50  0001 C CNN
@@ -922,12 +922,12 @@ F 3 "" H 3550 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R8
+L Device:R_Small_US R9
 U 1 1 605822D2
 P 6150 1775
-F 0 "R8" H 6218 1821 50  0000 L CNN
+F 0 "R9" H 6218 1821 50  0000 L CNN
 F 1 "45.3k" H 6218 1730 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6150 1775 50  0001 C CNN
+F 2 "digikey-footprints:0603" H 6150 1775 50  0001 C CNN
 F 3 "~" H 6150 1775 50  0001 C CNN
 	1    6150 1775
 	1    0    0    -1  
@@ -975,23 +975,12 @@ $EndComp
 Wire Wire Line
 	1750 6950 1750 6900
 $Comp
-L Device:L L1
-U 1 1 6057B6D3
-P 5575 1600
-F 0 "L1" V 5765 1600 50  0000 C CNN
-F 1 "4.7uH" V 5675 1540 50  0000 C CNN
-F 2 "Keith:SRN8040 Bournes" H 5575 1600 50  0001 C CNN
-F 3 "~" H 5575 1600 50  0001 C CNN
-	1    5575 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R9
+L Device:R_Small_US R10
 U 1 1 6058B282
 P 6150 2125
-F 0 "R9" H 6218 2171 50  0000 L CNN
+F 0 "R10" H 6218 2171 50  0000 L CNN
 F 1 "10k" H 6218 2080 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6150 2125 50  0001 C CNN
+F 2 "digikey-footprints:0603" H 6150 2125 50  0001 C CNN
 F 3 "~" H 6150 2125 50  0001 C CNN
 	1    6150 2125
 	1    0    0    -1  
@@ -1106,7 +1095,6 @@ Wire Wire Line
 	4125 1800 4125 1875
 Wire Wire Line
 	6150 1600 6700 1600
-Connection ~ 6150 1600
 Wire Wire Line
 	6700 1775 6700 1600
 Connection ~ 6700 1600
@@ -1126,9 +1114,7 @@ F 3 "" H 6700 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5725 1600 5850 1600
-Wire Wire Line
-	4525 1100 5850 1100
+	4525 1100 6000 1100
 Wire Wire Line
 	4075 1100 4325 1100
 $Comp
@@ -1143,40 +1129,13 @@ F 3 "~" H 4425 1100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4950 1600 5375 1600
-Wire Wire Line
-	5275 1300 5375 1300
-$Comp
-L Device:C_Small C9
-U 1 1 60570E44
-P 5175 1300
-F 0 "C9" V 5125 1375 50  0000 L CNN
-F 1 "100nF" V 5050 1225 50  0000 L CNN
-F 2 "digikey-footprints:0805" H 5175 1300 50  0001 C CNN
-F 3 "~" H 5175 1300 50  0001 C CNN
-	1    5175 1300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	4975 1450 4975 1300
-Wire Wire Line
-	4975 1300 5075 1300
-Wire Wire Line
-	5375 1300 5375 1600
-Connection ~ 5375 1600
-Wire Wire Line
-	5375 1600 5425 1600
 Wire Wire Line
 	4075 1100 4075 1600
 Wire Wire Line
 	4075 1600 4200 1600
 Wire Wire Line
 	4550 1250 4550 1200
-Wire Wire Line
-	5850 1100 5850 1600
-Connection ~ 5850 1600
-Wire Wire Line
-	5850 1600 6150 1600
 $Comp
 L power:+12V #PWR021
 U 1 1 60771F9D
@@ -1236,4 +1195,58 @@ F 3 "" H 4550 1600 50  0001 C CNN
 	1    4550 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 605B65C7
+P 5125 1300
+F 0 "R8" V 5025 1325 50  0000 L CNN
+F 1 "0" V 4950 1375 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5125 1300 50  0001 C CNN
+F 3 "~" H 5125 1300 50  0001 C CNN
+	1    5125 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4975 1300 5025 1300
+Wire Wire Line
+	5225 1300 5300 1300
+$Comp
+L Device:L L1
+U 1 1 6057B6D3
+P 5800 1600
+F 0 "L1" V 5990 1600 50  0000 C CNN
+F 1 "4.7uH" V 5900 1540 50  0000 C CNN
+F 2 "Keith:SRN8040 Bournes" H 5800 1600 50  0001 C CNN
+F 3 "~" H 5800 1600 50  0001 C CNN
+	1    5800 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 1600 6000 1600
+Connection ~ 6150 1600
+Wire Wire Line
+	6000 1100 6000 1600
+Connection ~ 6000 1600
+Wire Wire Line
+	6000 1600 6150 1600
+Wire Wire Line
+	4950 1600 5600 1600
+Wire Wire Line
+	5500 1300 5600 1300
+Wire Wire Line
+	5600 1300 5600 1600
+$Comp
+L Device:C_Small C9
+U 1 1 60570E44
+P 5400 1300
+F 0 "C9" V 5300 1300 50  0000 L CNN
+F 1 "100nF" V 5225 1175 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 5400 1300 50  0001 C CNN
+F 3 "~" H 5400 1300 50  0001 C CNN
+	1    5400 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 1600 5600 1600
+Connection ~ 5600 1600
 $EndSCHEMATC
