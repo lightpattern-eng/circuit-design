@@ -1,0 +1,20 @@
+Reference, Quantity, Value, Footprint, Datasheet
+D1 ,1,w1,Keith:SeoulSunlike3030,~
+D10 ,1,w5,Keith:SeoulSunlike3030,~
+D11 ,1,c5,Keith:SeoulSunlike3030,~
+D12 ,1,w8,Keith:SeoulSunlike3030,~
+D13 ,1,c8,Keith:SeoulSunlike3030,~
+D14 ,1,c3,Keith:SeoulSunlike3030,~
+D15 ,1,w6,Keith:SeoulSunlike3030,~
+D16 ,1,c6,Keith:SeoulSunlike3030,~
+D17 ,1,w9,Keith:SeoulSunlike3030,~
+D18 ,1,c9,Keith:SeoulSunlike3030,~
+D2 ,1,w2,Keith:SeoulSunlike3030,~
+D3 ,1,w3,Keith:SeoulSunlike3030,~
+D4 ,1,c1,Keith:SeoulSunlike3030,~
+D5 ,1,w4,Keith:SeoulSunlike3030,~
+D6 ,1,c4,Keith:SeoulSunlike3030,~
+D7 ,1,w7,Keith:SeoulSunlike3030,~
+D8 ,1,c7,Keith:SeoulSunlike3030,~
+D9 ,1,c2,Keith:SeoulSunlike3030,~
+J1 ,1,Connector,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,~

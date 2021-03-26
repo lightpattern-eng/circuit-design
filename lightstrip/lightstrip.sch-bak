@@ -58,19 +58,19 @@ F 3 "" H 2375 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x07_Female J1
+L Connector:Conn_01x08_Female J1
 U 1 1 605BEA0E
 P 4775 1600
-F 0 "J1" H 4803 1626 50  0000 L CNN
-F 1 "Connector" H 4803 1535 50  0000 L CNN
+F 0 "J1" H 4803 1576 50  0000 L CNN
+F 1 "Connector" H 4803 1485 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4775 1600 50  0001 C CNN
 F 3 "~" H 4775 1600 50  0001 C CNN
 	1    4775 1600
 	1    0    0    -1  
 $EndComp
-Text Label 4575 1400 2    50   ~ 0
+Text Label 4575 1900 2    50   ~ 0
 warm1
-Text Label 4575 1500 2    50   ~ 0
+Text Label 4575 2000 2    50   ~ 0
 cool1
 Wire Wire Line
 	2375 1475 2525 1475
@@ -84,11 +84,11 @@ Text Label 3575 1475 0    50   ~ 0
 warm1
 Text Label 4575 1600 2    50   ~ 0
 warm2
-Text Label 4575 1700 2    50   ~ 0
-cool2
 Text Label 4575 1800 2    50   ~ 0
+cool2
+Text Label 4575 1500 2    50   ~ 0
 warm3
-Text Label 4575 1900 2    50   ~ 0
+Text Label 4575 1700 2    50   ~ 0
 cool3
 $Comp
 L power:PWR_FLAG #FLG01
@@ -346,4 +346,9 @@ F 3 "" H 4350 1150 50  0001 C CNN
 	1    4350 1150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4575 1400 4350 1400
+Wire Wire Line
+	4350 1400 4350 1300
+Connection ~ 4350 1300
 $EndSCHEMATC

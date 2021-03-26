@@ -68,9 +68,9 @@ F 3 "~" H 4775 1600 50  0001 C CNN
 	1    4775 1600
 	1    0    0    -1  
 $EndComp
-Text Label 4575 1500 2    50   ~ 0
+Text Label 4575 1900 2    50   ~ 0
 warm1
-Text Label 4575 1600 2    50   ~ 0
+Text Label 4575 2000 2    50   ~ 0
 cool1
 Wire Wire Line
 	2375 1475 2525 1475
@@ -82,13 +82,13 @@ Wire Wire Line
 	3400 1475 3575 1475
 Text Label 3575 1475 0    50   ~ 0
 warm1
-Text Label 4575 1700 2    50   ~ 0
+Text Label 4575 1600 2    50   ~ 0
 warm2
 Text Label 4575 1800 2    50   ~ 0
 cool2
-Text Label 4575 1900 2    50   ~ 0
+Text Label 4575 1500 2    50   ~ 0
 warm3
-Text Label 4575 2000 2    50   ~ 0
+Text Label 4575 1700 2    50   ~ 0
 cool3
 $Comp
 L power:PWR_FLAG #FLG01
@@ -351,4 +351,26 @@ Wire Wire Line
 Wire Wire Line
 	4350 1400 4350 1300
 Connection ~ 4350 1300
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60600B87
+P 5600 1050
+F 0 "H1" H 5700 1096 50  0000 L CNN
+F 1 "MountingHole" H 5700 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 1050 50  0001 C CNN
+F 3 "~" H 5600 1050 50  0001 C CNN
+	1    5600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6060219C
+P 5600 1325
+F 0 "H2" H 5700 1371 50  0000 L CNN
+F 1 "MountingHole" H 5700 1280 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 5600 1325 50  0001 C CNN
+F 3 "~" H 5600 1325 50  0001 C CNN
+	1    5600 1325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
