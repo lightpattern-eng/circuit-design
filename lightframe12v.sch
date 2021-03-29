@@ -165,12 +165,12 @@ F 3 "~" H 10600 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J6
+L Connector:Conn_01x04_Female J6
 U 1 1 601E8B71
 P 10300 3250
 F 0 "J6" H 10328 3276 50  0000 L CNN
-F 1 "Conn_01x6_Female" H 10328 3185 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 10300 3250 50  0001 C CNN
+F 1 "Conn_01x4_Female" H 10328 3185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10300 3250 50  0001 C CNN
 F 3 "~" H 10300 3250 50  0001 C CNN
 	1    10300 3250
 	1    0    0    -1  
@@ -502,7 +502,7 @@ Wire Wire Line
 	1175 1450 1425 1450
 Wire Wire Line
 	1175 1050 1425 1050
-Text Notes 7650 2700 0    50   ~ 0
+Text Notes 7725 3225 0    50   ~ 0
 choose x5r or x7r for capacitors means \ntemperature range is -55 - 85/125
 $Comp
 L Device:D_Schottky_Small D1
@@ -561,7 +561,7 @@ Txd
 NoConn ~ 5150 4950
 NoConn ~ 5150 5250
 NoConn ~ 5150 5350
-Text Label 5150 5750 0    50   ~ 0
+Text Label 5150 6750 0    50   ~ 0
 Serial_In
 Wire Wire Line
 	4550 7350 4550 7400
@@ -570,7 +570,7 @@ Wire Wire Line
 	7450 3675 7750 3675
 Wire Wire Line
 	7750 5775 7750 5825
-Text Label 5150 5150 0    50   ~ 0
+Text Label 5150 6850 0    50   ~ 0
 Serial_Clock
 $Comp
 L power:GND #PWR019
@@ -644,51 +644,40 @@ F 3 "https://www.ti.com/lit/ds/symlink/tlc5971.pdf?HQS=dis-dk-null-digikeymode-d
 $EndComp
 NoConn ~ 8300 5475
 NoConn ~ 8300 5575
-$Comp
-L Connector:Conn_01x06_Female J2
-U 1 1 604DD4C0
-P 8575 1525
-F 0 "J2" H 8603 1501 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 8603 1410 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8575 1525 50  0001 C CNN
-F 3 "~" H 8575 1525 50  0001 C CNN
-	1    8575 1525
-	1    0    0    -1  
-$EndComp
-Text Label 8375 1325 2    50   ~ 0
+Text Label 8375 1225 2    50   ~ 0
 LED1
-Text Label 8375 1425 2    50   ~ 0
+Text Label 8375 1325 2    50   ~ 0
 LED2
-Text Label 8375 1525 2    50   ~ 0
+Text Label 8375 1425 2    50   ~ 0
 LED3
-Text Label 8375 1625 2    50   ~ 0
+Text Label 8375 1525 2    50   ~ 0
 LED4
-Text Label 8375 1725 2    50   ~ 0
+Text Label 8375 1625 2    50   ~ 0
 LED5
-Text Label 8375 1825 2    50   ~ 0
+Text Label 8375 1725 2    50   ~ 0
 LED6
 $Comp
-L Connector:Conn_01x06_Female J4
+L Connector:Conn_01x07_Female J4
 U 1 1 604E7F78
 P 9875 1525
 F 0 "J4" H 9903 1501 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 9903 1410 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 9875 1525 50  0001 C CNN
+F 1 "Conn_01x07_Female" H 9903 1410 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 9875 1525 50  0001 C CNN
 F 3 "~" H 9875 1525 50  0001 C CNN
 	1    9875 1525
 	1    0    0    -1  
 $EndComp
-Text Label 9675 1325 2    50   ~ 0
+Text Label 9675 1225 2    50   ~ 0
 LED7
-Text Label 9675 1425 2    50   ~ 0
+Text Label 9675 1325 2    50   ~ 0
 LED8
-Text Label 9675 1525 2    50   ~ 0
+Text Label 9675 1425 2    50   ~ 0
 LED9
-Text Label 9675 1625 2    50   ~ 0
+Text Label 9675 1525 2    50   ~ 0
 LED10
-Text Label 9675 1725 2    50   ~ 0
+Text Label 9675 1625 2    50   ~ 0
 LED11
-Text Label 9675 1825 2    50   ~ 0
+Text Label 9675 1725 2    50   ~ 0
 LED12
 Text Label 8300 5375 0    50   ~ 0
 LED1
@@ -816,23 +805,15 @@ Text Label 5150 7050 0    50   ~ 0
 Gpio35
 Text Label 5150 6650 0    50   ~ 0
 Gpio27
-Text Label 5150 6750 0    50   ~ 0
-Gpio32
-Text Label 5150 6850 0    50   ~ 0
-Gpio33
 Text Label 5150 6550 0    50   ~ 0
 Gpio26
-Text Label 10100 3550 2    50   ~ 0
-Gpio34
 Text Label 10100 3450 2    50   ~ 0
-Gpio35
-Text Label 10100 3050 2    50   ~ 0
-Gpio27
+Gpio34
 Text Label 10100 3350 2    50   ~ 0
-Gpio32
-Text Label 10100 3250 2    50   ~ 0
-Gpio33
+Gpio35
 Text Label 10100 3150 2    50   ~ 0
+Gpio27
+Text Label 10100 3250 2    50   ~ 0
 Gpio26
 NoConn ~ 5150 5850
 NoConn ~ 5150 5950
@@ -841,36 +822,6 @@ NoConn ~ 5150 6150
 NoConn ~ 5150 6250
 NoConn ~ 5150 6350
 NoConn ~ 5150 6450
-$Comp
-L Connector:Conn_01x02_Female J3
-U 1 1 604B5379
-P 8575 2175
-F 0 "J3" H 8603 2151 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 8603 2060 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8575 2175 50  0001 C CNN
-F 3 "~" H 8575 2175 50  0001 C CNN
-	1    8575 2175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8375 2275 8250 2275
-Wire Wire Line
-	8250 2275 8250 2350
-$Comp
-L power:GND #PWR022
-U 1 1 604C176C
-P 8250 2350
-F 0 "#PWR022" H 8250 2100 50  0001 C CNN
-F 1 "GND" H 8255 2177 50  0000 C CNN
-F 2 "" H 8250 2350 50  0001 C CNN
-F 3 "" H 8250 2350 50  0001 C CNN
-	1    8250 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8375 2175 8250 2175
-Wire Wire Line
-	8250 2175 8250 2075
 Connection ~ 3450 3650
 Wire Wire Line
 	3450 3650 3800 3650
@@ -950,26 +901,6 @@ F 10 "TRANS NPN 40V 0.6A SOT23" H 1850 7700 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 1850 7800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 1850 7900 60  0001 L CNN "Status"
 	1    1650 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-Bipolar-BJT-Single:MMBT2222A-TP Q2
-U 1 1 606EC93E
-P 1650 7350
-F 0 "Q2" H 1838 7403 60  0000 L CNN
-F 1 "MMBT2222A-TP" H 1838 7297 60  0000 L CNN
-F 2 "digikey-footprints:SOT-23-3" H 1850 7550 60  0001 L CNN
-F 3 "https://www.mccsemi.com/pdf/Products/MMBT2222A(SOT-23).pdf" H 1850 7650 60  0001 L CNN
-F 4 "MMBT2222ATPMSCT-ND" H 1850 7750 60  0001 L CNN "Digi-Key_PN"
-F 5 "MMBT2222A-TP" H 1850 7850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 1850 7950 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 1850 8050 60  0001 L CNN "Family"
-F 8 "https://www.mccsemi.com/pdf/Products/MMBT2222A(SOT-23).pdf" H 1850 8150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/micro-commercial-co/MMBT2222A-TP/MMBT2222ATPMSCT-ND/717394" H 1850 8250 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V 0.6A SOT23" H 1850 8350 60  0001 L CNN "Description"
-F 11 "Micro Commercial Co" H 1850 8450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1850 8550 60  0001 L CNN "Status"
-	1    1650 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1052,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	6525 1575 6525 1650
 Wire Wire Line
-	6525 2200 6525 2300
+	6525 2200 6525 2250
 $Comp
 L power:GND #PWR013
 U 1 1 6067007A
@@ -1128,17 +1059,6 @@ Wire Wire Line
 	4450 1575 4575 1575
 Wire Wire Line
 	4925 1225 4925 1175
-$Comp
-L power:+12V #PWR021
-U 1 1 60771F9D
-P 8250 2075
-F 0 "#PWR021" H 8250 1925 50  0001 C CNN
-F 1 "+12V" H 8265 2248 50  0000 C CNN
-F 2 "" H 8250 2075 50  0001 C CNN
-F 3 "" H 8250 2075 50  0001 C CNN
-	1    8250 2075
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR017
 U 1 1 6077ABFC
@@ -1298,4 +1218,83 @@ Wire Wire Line
 	4525 1075 4700 1075
 Wire Wire Line
 	4900 1075 6375 1075
+Wire Wire Line
+	8050 1825 8050 1725
+$Comp
+L power:+12V #PWR025
+U 1 1 6063E239
+P 8050 1725
+F 0 "#PWR025" H 8050 1575 50  0001 C CNN
+F 1 "+12V" H 8065 1898 50  0000 C CNN
+F 2 "" H 8050 1725 50  0001 C CNN
+F 3 "" H 8050 1725 50  0001 C CNN
+	1    8050 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP2
+U 1 1 6064997A
+P 6375 2250
+F 0 "TP2" V 6225 2025 50  0000 L CNN
+F 1 "ground test" V 6300 1875 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 6575 2250 50  0001 C CNN
+F 3 "~" H 6575 2250 50  0001 C CNN
+	1    6375 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6375 2250 6525 2250
+Connection ~ 6525 2250
+Wire Wire Line
+	6525 2250 6525 2300
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:MMBT2222A-TP Q2
+U 1 1 606EC93E
+P 1650 7350
+F 0 "Q2" H 1838 7403 60  0000 L CNN
+F 1 "MMBT2222A-TP" H 1838 7297 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 1850 7550 60  0001 L CNN
+F 3 "https://www.mccsemi.com/pdf/Products/MMBT2222A(SOT-23).pdf" H 1850 7650 60  0001 L CNN
+F 4 "MMBT2222ATPMSCT-ND" H 1850 7750 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMBT2222A-TP" H 1850 7850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 1850 7950 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 1850 8050 60  0001 L CNN "Family"
+F 8 "https://www.mccsemi.com/pdf/Products/MMBT2222A(SOT-23).pdf" H 1850 8150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/micro-commercial-co/MMBT2222A-TP/MMBT2222ATPMSCT-ND/717394" H 1850 8250 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V 0.6A SOT23" H 1850 8350 60  0001 L CNN "Description"
+F 11 "Micro Commercial Co" H 1850 8450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1850 8550 60  0001 L CNN "Status"
+	1    1650 7350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8375 1825 8050 1825
+$Comp
+L Connector:Conn_01x07_Female J2
+U 1 1 604DD4C0
+P 8575 1525
+F 0 "J2" H 8603 1501 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 8603 1410 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8575 1525 50  0001 C CNN
+F 3 "~" H 8575 1525 50  0001 C CNN
+	1    8575 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1825 9350 1725
+$Comp
+L power:+12V #PWR0101
+U 1 1 606D3580
+P 9350 1725
+F 0 "#PWR0101" H 9350 1575 50  0001 C CNN
+F 1 "+12V" H 9365 1898 50  0000 C CNN
+F 2 "" H 9350 1725 50  0001 C CNN
+F 3 "" H 9350 1725 50  0001 C CNN
+	1    9350 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9675 1825 9350 1825
+NoConn ~ 5150 5150
+NoConn ~ 5150 5750
 $EndSCHEMATC
