@@ -561,7 +561,7 @@ Txd
 NoConn ~ 5150 4950
 NoConn ~ 5150 5250
 NoConn ~ 5150 5350
-Text Label 5150 6850 0    50   ~ 0
+Text Label 5150 6750 0    50   ~ 0
 Serial_In
 Wire Wire Line
 	4550 7350 4550 7400
@@ -570,7 +570,7 @@ Wire Wire Line
 	7450 3675 7750 3675
 Wire Wire Line
 	7750 5775 7750 5825
-Text Label 5150 6750 0    50   ~ 0
+Text Label 5150 6850 0    50   ~ 0
 Serial_Clock
 $Comp
 L power:GND #PWR019

@@ -644,17 +644,17 @@ F 3 "https://www.ti.com/lit/ds/symlink/tlc5971.pdf?HQS=dis-dk-null-digikeymode-d
 $EndComp
 NoConn ~ 8300 5475
 NoConn ~ 8300 5575
-Text Label 8375 1225 2    50   ~ 0
-LED1
-Text Label 8375 1325 2    50   ~ 0
-LED2
-Text Label 8375 1425 2    50   ~ 0
-LED3
-Text Label 8375 1525 2    50   ~ 0
-LED4
-Text Label 8375 1625 2    50   ~ 0
-LED5
 Text Label 8375 1725 2    50   ~ 0
+LED1
+Text Label 8375 1625 2    50   ~ 0
+LED2
+Text Label 8375 1525 2    50   ~ 0
+LED3
+Text Label 8375 1425 2    50   ~ 0
+LED4
+Text Label 8375 1325 2    50   ~ 0
+LED5
+Text Label 8375 1225 2    50   ~ 0
 LED6
 $Comp
 L Connector:Conn_01x07_Female J4
@@ -667,17 +667,17 @@ F 3 "~" H 9875 1525 50  0001 C CNN
 	1    9875 1525
 	1    0    0    -1  
 $EndComp
-Text Label 9675 1225 2    50   ~ 0
-LED7
-Text Label 9675 1325 2    50   ~ 0
-LED8
-Text Label 9675 1425 2    50   ~ 0
-LED9
-Text Label 9675 1525 2    50   ~ 0
-LED10
-Text Label 9675 1625 2    50   ~ 0
-LED11
 Text Label 9675 1725 2    50   ~ 0
+LED7
+Text Label 9675 1625 2    50   ~ 0
+LED8
+Text Label 9675 1525 2    50   ~ 0
+LED9
+Text Label 9675 1425 2    50   ~ 0
+LED10
+Text Label 9675 1325 2    50   ~ 0
+LED11
+Text Label 9675 1225 2    50   ~ 0
 LED12
 Text Label 8300 5375 0    50   ~ 0
 LED1
