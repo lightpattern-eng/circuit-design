@@ -81,17 +81,6 @@ F 3 "~" H 10150 6100 50  0001 C CNN
 $EndComp
 Connection ~ 10350 5850
 $Comp
-L Switch:SW_Push RST
-U 1 1 602DAA6D
-P 10150 5850
-F 0 "RST" H 10150 6135 50  0000 C CNN
-F 1 "SW_Push" H 10150 6044 50  0000 C CNN
-F 2 "keith:PTS810 Tactile Switch" H 10150 6050 50  0001 C CNN
-F 3 "~" H 10150 6050 50  0001 C CNN
-	1    10150 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small_US R13
 U 1 1 602DA52D
 P 10650 5850
@@ -142,17 +131,6 @@ F 3 "~" H 10100 5050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 10300 4800
-$Comp
-L Switch:SW_Push ZRO
-U 1 1 6029C4B2
-P 10100 4800
-F 0 "ZRO" H 10100 5085 50  0000 C CNN
-F 1 "SW_Push" H 10100 4994 50  0000 C CNN
-F 2 "keith:PTS810 Tactile Switch" H 10100 5000 50  0001 C CNN
-F 3 "~" H 10100 5000 50  0001 C CNN
-	1    10100 4800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small_US R12
 U 1 1 6029A6D9
@@ -1297,4 +1275,26 @@ Wire Wire Line
 	9675 1825 9350 1825
 NoConn ~ 5150 5150
 NoConn ~ 5150 5750
+$Comp
+L Switch:SW_Push SW2
+U 1 1 602DAA6D
+P 10150 5850
+F 0 "SW2" H 10150 6135 50  0000 C CNN
+F 1 "SW_Push" H 10150 6044 50  0000 C CNN
+F 2 "keith:PTS810 Tactile Switch" H 10150 6050 50  0001 C CNN
+F 3 "~" H 10150 6050 50  0001 C CNN
+	1    10150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6029C4B2
+P 10100 4800
+F 0 "SW1" H 10100 5085 50  0000 C CNN
+F 1 "SW_Push" H 10100 4994 50  0000 C CNN
+F 2 "keith:PTS810 Tactile Switch" H 10100 5000 50  0001 C CNN
+F 3 "~" H 10100 5000 50  0001 C CNN
+	1    10100 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

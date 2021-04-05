@@ -530,8 +530,6 @@ NoConn ~ 3950 6150
 NoConn ~ 3950 6250
 NoConn ~ 3950 6350
 NoConn ~ 3950 6450
-Text Label 5150 4750 0    50   ~ 0
-Gpio0
 Text Label 5150 5050 0    50   ~ 0
 Rxd
 Text Label 5150 4850 0    50   ~ 0
@@ -546,8 +544,6 @@ Wire Wire Line
 Connection ~ 7450 3675
 Wire Wire Line
 	7450 3675 7750 3675
-Wire Wire Line
-	7750 5775 7750 5825
 Text Label 5150 6850 0    50   ~ 0
 Serial_Clock
 $Comp
@@ -607,21 +603,6 @@ F 3 "" H 7750 5825 50  0001 C CNN
 $EndComp
 Text Label 7300 4875 2    50   ~ 0
 Serial_In
-Wire Wire Line
-	7750 3675 7750 4075
-$Comp
-L lightframe:TLC5971 U3
-U 1 1 6046912B
-P 7800 4875
-F 0 "U3" H 8125 5875 50  0000 C CNN
-F 1 "TLC5971" H 8150 5775 50  0000 C CNN
-F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm_ThermalVias" H 9925 5375 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tlc5971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1615094393163" H 9925 5375 50  0001 C CNN
-	1    7800 4875
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8300 5475
-NoConn ~ 8300 5575
 Text Label 8375 1725 2    50   ~ 0
 LED1
 Text Label 8375 1625 2    50   ~ 0
@@ -693,8 +674,6 @@ F 3 "~" H 7075 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 5075 7075 5075
-Wire Wire Line
 	7075 5075 7075 5125
 Wire Wire Line
 	7075 5325 7075 5400
@@ -736,8 +715,6 @@ F 3 "~" H 6725 5225 50  0001 C CNN
 	1    6725 5225
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 4975 6725 4975
 Wire Wire Line
 	6725 4975 6725 5125
 Wire Wire Line
@@ -1295,6 +1272,29 @@ F 1 "SW_Push" H 10100 4994 50  0000 C CNN
 F 2 "keith:PTS810 Tactile Switch" H 10100 5000 50  0001 C CNN
 F 3 "~" H 10100 5000 50  0001 C CNN
 	1    10100 4800
+	1    0    0    -1  
+$EndComp
+Text Label 5150 4750 0    50   ~ 0
+Gpio0
+Wire Wire Line
+	7300 4975 6725 4975
+Wire Wire Line
+	7750 5775 7750 5825
+Wire Wire Line
+	7750 3675 7750 4075
+NoConn ~ 8300 5475
+NoConn ~ 8300 5575
+Wire Wire Line
+	7300 5075 7075 5075
+$Comp
+L lightframe:TLC5971 U3
+U 1 1 6046912B
+P 7800 4875
+F 0 "U3" H 8125 5875 50  0000 C CNN
+F 1 "TLC5971" H 8150 5775 50  0000 C CNN
+F 2 "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm_ThermalVias" H 9925 5375 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlc5971.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1615094393163" H 9925 5375 50  0001 C CNN
+	1    7800 4875
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
