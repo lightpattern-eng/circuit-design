@@ -1297,4 +1297,70 @@ F 3 "https://www.ti.com/lit/ds/symlink/tlc5971.pdf?HQS=dis-dk-null-digikeymode-d
 	1    7800 4875
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60715E68
+P 8550 2250
+F 0 "H3" H 8650 2296 50  0000 L CNN
+F 1 "TopRight" H 8650 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8550 2250 50  0001 C CNN
+F 3 "~" H 8550 2250 50  0001 C CNN
+	1    8550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6071CBF1
+P 7850 2250
+F 0 "H1" H 7950 2296 50  0000 L CNN
+F 1 "TopLeft" H 7950 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7850 2250 50  0001 C CNN
+F 3 "~" H 7850 2250 50  0001 C CNN
+	1    7850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 607216A9
+P 7850 2625
+F 0 "H2" H 7950 2671 50  0000 L CNN
+F 1 "BottomLeft" H 7950 2580 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7850 2625 50  0001 C CNN
+F 3 "~" H 7850 2625 50  0001 C CNN
+	1    7850 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60726C05
+P 5500 2850
+F 0 "FID1" H 5585 2896 50  0000 L CNN
+F 1 "Fiducial" H 5585 2805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5500 2850 50  0001 C CNN
+F 3 "~" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60727705
+P 5500 3150
+F 0 "FID2" H 5585 3196 50  0000 L CNN
+F 1 "Fiducial" H 5585 3105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5500 3150 50  0001 C CNN
+F 3 "~" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 6072BFCF
+P 5500 3400
+F 0 "FID3" H 5585 3446 50  0000 L CNN
+F 1 "Fiducial" H 5585 3355 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5500 3400 50  0001 C CNN
+F 3 "~" H 5500 3400 50  0001 C CNN
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
