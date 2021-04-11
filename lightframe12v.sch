@@ -797,20 +797,12 @@ Gpio0
 NoConn ~ 6050 5750
 NoConn ~ 6050 5150
 Wire Wire Line
-	4700 3750 4700 3650
-Wire Wire Line
 	5150 3750 5150 3650
 Wire Wire Line
 	5450 3650 5450 4550
 Connection ~ 5150 3650
 Wire Wire Line
 	5150 3650 5450 3650
-Connection ~ 4700 3650
-Wire Wire Line
-	4700 3650 5150 3650
-Wire Wire Line
-	4350 3650 4700 3650
-Connection ~ 4350 3650
 NoConn ~ 6050 6450
 NoConn ~ 6050 6350
 NoConn ~ 6050 6250
@@ -840,16 +832,6 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6050 5550
-Wire Wire Line
-	4700 4150 5150 4150
-Connection ~ 4700 4150
-Wire Wire Line
-	4000 4150 4300 4150
-Connection ~ 4000 4150
-Wire Wire Line
-	3650 4150 4000 4150
-Wire Wire Line
-	4350 4150 4700 4150
 Text Label 6050 6850 0    50   ~ 0
 Serial_Clock
 Wire Wire Line
@@ -873,10 +855,6 @@ NoConn ~ 4850 5050
 NoConn ~ 4850 4950
 Text Label 4850 4750 2    50   ~ 0
 Reset
-Wire Wire Line
-	4300 4150 4350 4150
-Connection ~ 4300 4150
-Connection ~ 4350 4150
 $Comp
 L power:GND #PWR012
 U 1 1 60104C81
@@ -889,117 +867,42 @@ F 3 "" H 5450 7400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3650 4350 3650
-Connection ~ 4000 3650
-Wire Wire Line
-	3650 3950 3650 4150
-$Comp
-L Device:C_Small C5
-U 1 1 60195D86
-P 4000 3850
-F 0 "C5" H 4092 3896 50  0000 L CNN
-F 1 "10000pF" H 4092 3805 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 4000 3850 50  0001 C CNN
-F 3 "~" H 4000 3850 50  0001 C CNN
-	1    4000 3850
-	1    0    0    -1  
-$EndComp
+	4750 3950 4750 4150
 $Comp
 L power:+3V3 #PWR08
 U 1 1 6012A417
-P 3550 3525
-F 0 "#PWR08" H 3550 3375 50  0001 C CNN
-F 1 "+3V3" H 3565 3698 50  0000 C CNN
-F 2 "" H 3550 3525 50  0001 C CNN
-F 3 "" H 3550 3525 50  0001 C CNN
-	1    3550 3525
+P 4575 3525
+F 0 "#PWR08" H 4575 3375 50  0001 C CNN
+F 1 "+3V3" H 4590 3698 50  0000 C CNN
+F 2 "" H 4575 3525 50  0001 C CNN
+F 3 "" H 4575 3525 50  0001 C CNN
+	1    4575 3525
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C4
 U 1 1 60194547
-P 3650 3850
-F 0 "C4" H 3742 3896 50  0000 L CNN
-F 1 "0.1uF" H 3742 3805 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 3650 3850 50  0001 C CNN
-F 3 "~" H 3650 3850 50  0001 C CNN
-	1    3650 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C7
-U 1 1 60195102
-P 4700 3850
-F 0 "C7" H 4792 3896 50  0000 L CNN
-F 1 "1uF" H 4792 3805 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 4700 3850 50  0001 C CNN
-F 3 "~" H 4700 3850 50  0001 C CNN
-	1    4700 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 60195650
 P 5150 3850
-F 0 "C9" H 5242 3896 50  0000 L CNN
-F 1 "10uF" H 5242 3805 50  0000 L CNN
-F 2 "digikey-footprints:0805" H 5150 3850 50  0001 C CNN
+F 0 "C4" H 5125 4225 50  0000 L CNN
+F 1 "0.1uF 50V (10%)" H 5125 4150 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 5150 3850 50  0001 C CNN
 F 3 "~" H 5150 3850 50  0001 C CNN
 	1    5150 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R7
-U 1 1 601AF3F3
-P 5150 4050
-F 0 "R7" H 5218 4096 50  0000 L CNN
-F 1 "1" H 5218 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5150 4050 50  0001 C CNN
-F 3 "~" H 5150 4050 50  0001 C CNN
-	1    5150 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4000 3950 4000 4150
-Wire Wire Line
-	4700 3950 4700 4150
-Wire Wire Line
-	4300 4150 4300 4250
+	4900 4150 4900 4250
 $Comp
 L power:GND #PWR09
 U 1 1 601C0C19
-P 4300 4250
-F 0 "#PWR09" H 4300 4000 50  0001 C CNN
-F 1 "GND" H 4305 4077 50  0000 C CNN
-F 2 "" H 4300 4250 50  0001 C CNN
-F 3 "" H 4300 4250 50  0001 C CNN
-	1    4300 4250
+P 4900 4250
+F 0 "#PWR09" H 4900 4000 50  0001 C CNN
+F 1 "GND" H 4905 4077 50  0000 C CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "" H 4900 4250 50  0001 C CNN
+	1    4900 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 3950 4350 4150
-$Comp
-L Device:C_Small C6
-U 1 1 60267B17
-P 4350 3850
-F 0 "C6" H 4442 3896 50  0000 L CNN
-F 1 "0.1uF" H 4442 3805 50  0000 L CNN
-F 2 "digikey-footprints:0603" H 4350 3850 50  0001 C CNN
-F 3 "~" H 4350 3850 50  0001 C CNN
-	1    4350 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 3750 4350 3650
-Wire Wire Line
-	4000 3750 4000 3650
-Wire Wire Line
-	3650 3750 3650 3650
-Wire Wire Line
-	3550 3650 3650 3650
-Connection ~ 3650 3650
-Wire Wire Line
-	3650 3650 4000 3650
 Text Notes 7025 3175 0    79   ~ 0
 12 Channel Led Driver
 Connection ~ 2000 3875
@@ -1018,7 +921,7 @@ Manual Programming Switches
 Text Notes 3050 3150 0    79   ~ 0
 Wroom 32
 Wire Wire Line
-	3550 3650 3550 3525
+	4575 3650 4575 3525
 Wire Notes Line
 	3000 3000 3000 7800
 Wire Notes Line
@@ -1388,4 +1291,29 @@ F 3 "~" H 7900 1850 50  0001 C CNN
 	1    7900 1850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 3650 5150 3650
+Wire Wire Line
+	4750 4150 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 5150 4150
+Wire Wire Line
+	4750 3650 4575 3650
+Connection ~ 4750 3650
+Wire Wire Line
+	4750 3750 4750 3650
+$Comp
+L Device:C_Small C9
+U 1 1 60195650
+P 4750 3850
+F 0 "C9" H 4500 3850 50  0000 L CNN
+F 1 "22uF 10V(20%)" H 4175 3750 50  0000 L CNN
+F 2 "digikey-footprints:0805" H 4750 3850 50  0001 C CNN
+F 3 "~" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3950 5150 4150
 $EndSCHEMATC
